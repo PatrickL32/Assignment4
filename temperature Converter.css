@@ -1,0 +1,68 @@
+/*global//*global*/
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;/*center all text content by default*/
+    margin:0;/*remove default margin*/
+    padding:0; /*remove default padding*/
+}
+
+.header {
+    height: 165px;
+    background-color:rgb(73, 55, 192);
+    color:rgb(224, 17, 17);
+    text-align:center;
+}
+
+
+h1 {
+    margin-top: 30px; /* Add spacing between the image and the title */
+    font-size: 36px; /* Make the title larger */
+    font-weight: bold; /* Make the title bold */
+    text-align: center; /* Center the text horizontally */
+
+}
+
+.image-container {
+    text-align: center; /*center the image container*/
+}
+
+img {
+    width: 35%; /*adjust the width to make the image larger(e.g.,50% of the container width)*/
+    height:auto;/*maintain aspect ratio*/
+    margin:20px auto;/* add vertical spacing center the image horizontally*/
+    display: block; /*ensure image behaves like a block element for centering*/
+} 
+
+.container {
+    width:100%;/*Full wideth of the page*/
+    margin:0 auto;/*center the container horizontally*/
+    text-align: center; /* Center the content inside the container*/
+}
+
+button {
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color:grey;/*set background color (limegreem)*/
+    color:azure;  /*set button text color*/
+    border:none; /*remove border*/
+    border-radius: 5px; /*add rounded corners*/
+}
+
+button:hover{
+    background-color:darkgray; /* chnage background color on hover*/
+}
+
+#results {
+    margin-top: 10px; /* Add spacing above the results section */
+    font-size: 18px; /* Adjust font size for results */
+    color:black; /* Set text color */
+}
+
+
+
+
+
+
+
+
